@@ -2,8 +2,8 @@ import React from "react";
 
 const SignupLeftSection = ({ image }) => {
   return (
-    <div>
-      <div className="hidden md:block relative w-[400px] h-[800px] overflow-hidden rounded-lg">
+    <div className="hidden lg:block">
+      <div className="relative w-[400px] h-[800px] overflow-hidden rounded-lg">
         {/* middle */}
         <div className="absolute right-12 w-[400px] h-full bg-[rgba(19,189,232,1)] rotate-[8.5deg] origin-top-left rounded-lg"></div>
         {/* top */}
@@ -25,6 +25,8 @@ const SignupLeftSection = ({ image }) => {
           className="absolute left-40 top-[360px] z-10 -translate-x-1/2 -translate-y-1/3 w-60 md:w-72 drop-shadow-xl"
         />
       </div>
+
+      
     </div>
   );
 };

@@ -145,7 +145,7 @@ const SignupForm = () => {
   );
 
   return (
-    <div className="w-full max-w-sm mx-auto h-[800px] flex flex-col justify-center px-2 gap-y-10">
+    <div className="w-full max-w-md mx-auto flex flex-col justify-center px-6 py-8 gap-y-6">
       <div className="text-center mb-2">
         <p className="font-semibold text-xs">Ready To Start</p>
         <h2 className="text-4xl font-bold mb-2 text-[#13bde8]">

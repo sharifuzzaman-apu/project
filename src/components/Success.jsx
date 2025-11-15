@@ -22,8 +22,8 @@ const Success = () => {
   }, [count]);
 
   return (
-    <div className="flex flex-col items-center justify-center p-10 ">
-      <img className="w-[300px] h-[300px]" src={SuccessImage} alt="Success" />
+    <div className="flex flex-col items-center justify-center p-6 md:p-10">
+      <img className="w-48 h-48 md:w-72 md:h-72" src={SuccessImage} alt="Success" />
       <p>Yeeeeeeee!</p>
       <h1 className="text-[#13bde8] text-4xl font-bold my-5">
         You are all Set

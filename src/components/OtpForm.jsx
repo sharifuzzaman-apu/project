@@ -68,7 +68,7 @@ export default function OtpForm() {
   return (
     <form
       onSubmit={handleSubmit}
-      className="bg-white  px-8 pt-6 pb-8 w-2xl max-w-md mx-auto my-auto flex flex-col items-center"
+      className="bg-white px-6 pt-6 pb-8 w-full max-w-md mx-auto my-auto flex flex-col items-center"
     >
       <p>Almost There!</p>
       <h2 className="text-4xl font-bold text-center text-cyan-500 mb-2">
@@ -95,7 +95,7 @@ export default function OtpForm() {
                 onChange={(e) => handleChangeDigit(index, e)}
                 onKeyDown={(e) => handleKeyDown(index, e)}
                 ref={(el) => (inputsRef.current[index] = el)}
-                className={`w-20 h-16 py-2 px-4 rounded-xl border outline-none text-center text-xl tracking-widest ${
+                className={`w-12 md:w-20 h-16 py-2 px-4 rounded-xl border outline-none text-center text-xl tracking-widest ${
                   error ? "border-red-400" : "border-gray-200"
                 }`}
                 placeholder=""
@@ -107,7 +107,7 @@ export default function OtpForm() {
       {error && <p className="mt-2 text-xs text-red-500">{error}</p>}
       <button
         type="submit"
-        className="w-1/3 rounded-full border border-cyan-500 text-cyan-500 py-2 font-semibold mt-6 hover:bg-cyan-50 transition"
+        className="w-full sm:w-1/3 rounded-full border border-cyan-500 text-cyan-500 py-2 font-semibold mt-6 hover:bg-cyan-50 transition"
       >
         Verify
       </button>
