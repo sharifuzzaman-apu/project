@@ -1,7 +1,7 @@
 import React from 'react';
 import SignupLeftSection from '../components/LeftDesign';
 import SuccessImage from '../assets/New Project (2).png';
-import Success from '../components/success';
+import Success from '../components/Success';
 
 const SuccessPage = () => {
     return (
